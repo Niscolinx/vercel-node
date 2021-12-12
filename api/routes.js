@@ -119,5 +119,3 @@ app.post('/bund2', (req, res, next) => {
     }
 })
 
-const PORT = process.env.PORT || 3030
-app.listen(PORT, () => console.info(`server has started on ${PORT}`))
