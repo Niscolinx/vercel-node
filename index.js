@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.send('Server is working!!')
 })
 
-app.use("/api/routes", routes)
+//app.use("/api/routes", routes)
 
 const PORT = process.env.HOST || 3030
 
