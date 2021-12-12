@@ -119,3 +119,5 @@ app.post('/bund2', (req, res, next) => {
     }
 })
 
+module.exports = app
+
